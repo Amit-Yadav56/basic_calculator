@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="styles/calculator.css">
+    </head>
+    <body>
+        <center>
+        <p class="name">Calculator</p>
+        <p class="result"></p>
+        <p>
+            <button onclick="calculate('1');" class="calculator grey" >1</button>
+            <button onclick="calculate('2');"  class="calculator grey" >2</button>
+            <button onclick="calculate('3');"  class="calculator grey" >3</button>
+            <button onclick="calculate('+');"  class="calculator orange" >+</button>
+        </p>
+        <p>
+            <button onclick="calculate('4');"  class="calculator grey" >4</button>
+            <button onclick="calculate('5');"  class="calculator grey" >5</button>
+            <button onclick="calculate('6');"  class="calculator grey" >6</button>
+            <button onclick="calculate('-');"  class="calculator orange" >-</button>
+        </p>
+        <p>
+            <button onclick="calculate('7');"  class="calculator grey" >7</button>
+            <button onclick="calculate('8');"  class="calculator grey" >8</button>
+            <button onclick="calculate('9');"  class="calculator grey" >9</button>
+            <button onclick="calculate('*');"  class="calculator orange" >*</button>
+        </p>
+        <p>
+            <button onclick="calculate('.');"  class="calculator grey" >.</button>
+            <button onclick="calculate('0');"  class="calculator grey" >0</button>
+            <button onclick="result();"  class="calculator grey" >=</button>
+            <button onclick="calculate('/');"  class="calculator orange" >/</button>
+        </p>
+        <p>
+            <button onclick="calculation='0'; dis();"  class="calculator grey" >clr</button>
+        </p>
+        
+        <script src="scripts/calculator.js"></script>
+
+    </body>
+    
+</html>
